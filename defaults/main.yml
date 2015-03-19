@@ -1,0 +1,15 @@
+---
+# file: vars/main.yml
+galera_conf:
+    bind_address: 0.0.0.0
+    dbusers:
+        xtrabackup:
+            username: xtrabackup 
+            password: xtrabackup 
+        admin:
+            username: admin 
+            password: admin 
+            host: 172.17.%
+        clustercheck:
+            username: clustercheck
+            password: clustercheck
